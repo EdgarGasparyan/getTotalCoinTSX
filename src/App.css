@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.buttons_div{
+	width: 100%;
+	height: 20px;
+	margin: 10px;
+	margin-left: 10%;
+ }
+ /* .button {
+	width: 70px;
+	height: 31px;
+	background-color: #E53E3E;
+	border-radius: 5px;
+	color: whitesmoke;
+	font-size: 18px;
+	justify-content: center;
+	border: 1px solid #E53E3E;
+	margin-right: 2px;
+ } */
+ .button{
+	background: #FF4742;
+	border: 1px solid #FF4742;
+	border-radius: 6px;
+	box-shadow: rgb(0 0 0 / 10%) 1px 2px 4px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 16px;
+	min-height: 40px;
+	outline: 0;
+	padding: 10px 14px;
+	text-align: center;
+	text-rendering: geometricprecision;
+	text-transform: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	margin-right: 2px;
+ }
+ .button:hover,
+ .button:active {
+	background-color: initial;
+	background-position: 0 0;
+	color: #FF4742;
+ }
+ .button:active {
+	opacity: .5;
+ }
+ .bactive{
+	background-color: initial;
+	background-position: 0 0;
+	color: #FF4742;
+ }
