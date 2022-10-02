@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/getTotalCoinTSX/static/css/main.082b4aac.css",
+    "main.js": "/getTotalCoinTSX/static/js/main.79de32fc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/getTotalCoinTSX/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/getTotalCoinTSX/index.html",
+    "main.082b4aac.css.map": "/getTotalCoinTSX/static/css/main.082b4aac.css.map",
+    "main.79de32fc.js.map": "/getTotalCoinTSX/static/js/main.79de32fc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/getTotalCoinTSX/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.082b4aac.css",
+    "static/js/main.79de32fc.js"
+  ]
+}
